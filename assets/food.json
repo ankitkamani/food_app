@@ -1,0 +1,125 @@
+{
+  "restaurant": "Delicious Eats",
+  "foods": [
+    {
+      "id": 1,
+      "name": "Burger Double Cheese ",
+      "type": "American",
+      "description": "A classic American burger made with a juicy beef patty, cheese, lettuce, tomato, and pickles served with your choice of toppings and condiments.",
+      "toppings": [
+        { "name": "Cheese", "price": 10.00, "discounted_price": 7.50 },
+        { "name": "Lettuce", "price": 7.50, "discounted_price": 5.00 },
+        { "name": "Tomato", "price": 5.00, "discounted_price": 2.50 }
+      ],
+      "options": [
+        { "name": "Bacon", "price": 15.00, "discounted_price": 12.50 },
+        { "name": "Avocado", "price": 12.50, "discounted_price": 10.00 },
+        { "name": "Extra Sauce", "price": 7.50, "discounted_price": 5.00 }
+      ],
+      "sizes": [
+        { "name": "Single", "original_price": 89.90, "discounted_price": 79.90 },
+        { "name": "Double", "original_price": 119.90, "discounted_price": 109.90 },
+        { "name": "Large", "original_price": 129.90, "discounted_price": 119.90 }
+      ],
+      "in_stock": true,
+      "isVegetarian": true,
+      "img": "assets/burger3.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Pizza Double Cheese ",
+      "type": "Italian",
+      "description": "Classic Italian pizza with a delicious blend of cheese, pepperoni, mushrooms, and onions on a crispy crust.",
+      "toppings": [
+        { "name": "Cheese", "price": 15.00, "discounted_price": 12.50 },
+        { "name": "Pepperoni", "price": 20.00, "discounted_price": 17.50 },
+        { "name": "Mushrooms", "price": 17.50, "discounted_price": 15.00 }
+      ],
+      "options": [
+        { "name": "Thin Crust", "price": 10.00, "discounted_price": 7.50 },
+        { "name": "Extra Cheese", "price": 12.50, "discounted_price": 10.00 },
+        { "name": "Spicy Sauce", "price": 15.00, "discounted_price": 12.50 }
+      ],
+      "sizes": [
+        { "name": "Small", "original_price": 109.90, "discounted_price": 99.90 },
+        { "name": "Medium", "original_price": 129.90, "discounted_price": 119.90 },
+        { "name": "Large", "original_price": 159.90, "discounted_price": 139.90 }
+      ],
+      "in_stock": true,
+      "isVegetarian": false,
+      "img": "assets/pizza.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Veggie Burger Double Cheese ",
+      "type": "American",
+      "description": "A delicious vegetarian burger made with a plant-based patty, lettuce, tomato, and pickles served with your choice of toppings and condiments.",
+      "toppings": [
+        { "name": "Cheese", "price": 10.00, "discounted_price": 7.50 },
+        { "name": "Lettuce", "price": 7.50, "discounted_price": 5.00 },
+        { "name": "Tomato", "price": 5.00, "discounted_price": 2.50 }
+      ],
+      "options": [
+        { "name": "Bacon", "price": 15.00, "discounted_price": 12.50 },
+        { "name": "Avocado", "price": 12.50, "discounted_price": 10.00 },
+        { "name": "Extra Sauce", "price": 7.50, "discounted_price": 5.00 }
+      ],
+      "sizes": [
+        { "name": "Single", "original_price": 89.90, "discounted_price": 79.90 },
+        { "name": "Double", "original_price": 119.90, "discounted_price": 109.90 },
+        { "name": "Large", "original_price": 159.90, "discounted_price": 139.90 }
+      ],
+      "in_stock": true,
+      "isVegetarian": true,
+      "img": "assets/burger2.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Sushi Double Cheese ",
+      "type": "Japanese",
+      "description": "Fresh and authentic Japanese sushi with a perfect combination of rice, fish, and seaweed served with soy sauce, wasabi, and ginger.",
+      "toppings": [
+        { "name": "Soy Sauce", "price": 10.00, "discounted_price": 7.50 },
+        { "name": "Wasabi", "price": 15.00, "discounted_price": 12.50 },
+        { "name": "Ginger", "price": 12.50, "discounted_price": 10.00 }
+      ],
+      "options": [
+        { "name": "Spicy Mayo", "price": 10.00, "discounted_price": 7.50 },
+        { "name": "Extra Wasabi", "price": 12.50, "discounted_price": 10.00 },
+        { "name": "Soy Sauce on the Side", "price": 7.50, "discounted_price": 5.00 }
+      ],
+      "sizes": [
+        { "name": "Small", "original_price": 139.90, "discounted_price": 119.90 },
+        { "name": "Regular", "original_price": 159.90, "discounted_price": 139.90 },
+        { "name": "Large", "original_price": 189.90, "discounted_price": 169.90 }
+      ],
+      "in_stock": false,
+      "isVegetarian": false,
+      "img": "assets/sushi.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cheeseburger Double Cheese ",
+      "type": "American",
+      "description": "A classic American cheeseburger with a juicy beef patty and melted cheese, served with your choice of toppings and condiments.",
+      "toppings": [
+        { "name": "Cheese", "price": 10.00, "discounted_price": 7.50 },
+        { "name": "Lettuce", "price": 7.50, "discounted_price": 5.00 },
+        { "name": "Tomato", "price": 5.00, "discounted_price": 2.50 }
+      ],
+      "options": [
+        { "name": "Bacon", "price": 15.00, "discounted_price": 12.50 },
+        { "name": "Avocado", "price": 12.50, "discounted_price": 10.00 },
+        { "name": "Extra Sauce", "price": 7.50, "discounted_price": 5.00 }
+      ],
+      "sizes": [
+        { "name": "Single", "original_price": 89.90, "discounted_price": 79.90 },
+        { "name": "Double", "original_price": 119.90, "discounted_price": 109.90 },
+        { "name": "Large", "original_price": 149.90, "discounted_price": 139.90 }
+      ],
+      "in_stock": true,
+      "isVegetarian": false,
+      "img": "assets/burger1.png"
+    }
+  ]
+}
